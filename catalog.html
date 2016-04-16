@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Catalog</title>
+</head>
+<body>
+<form action="#" method="get">
+		<header class="main-header">
+			<div class="container">
+				<nav class="main-navigation">
+						<img src="http://placehold.it/150x100">
+					<ul>
+						<li>Информация</li>
+						<li>Новости</li>
+						<li>Прайс-лист</li>
+						<li>Магазин</li>
+						<li>Контакты</li>
+					</ul>
+				</nav>
+				<div class="user-block">
+					<a class="login" href="#">Вход</a>
+				</div>
+			</div>
+		</header>
+		<main class="container">
+			<h1>Средства для ухода</h1>
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Средства для ухода</a></li>
+				</ul>
+			</div>
+			<div class="index-content">
+				<div class="index-content-left">
+					<div class="manufacturer">
+						<h2>Производители:</h2>
+						<label>
+							<input type="checkbox" name="Baxter of California">Baxter of California
+						</label><br>
+						<label>
+							<input type="checkbox" name="Mr Natty">Mr Natty
+						</label><br>
+						<label>
+							<input type="checkbox" name="Suavecito">Suavecito
+						</label><br>
+						<label>
+							<input type="checkbox" name="Malin Coetz">Malin Coetz
+						</label><br>
+						<label>
+							<input type="checkbox" name="Murray's">Murray's
+						</label><br>
+						<label>
+							<input type="checkbox" name="American crew">American crew
+						</label>
+
+					</div>
+					<div class="product-groups">
+						<h2>Группы товаров:</h2>
+						<label>
+							<input type="radio" name="product-groups" value="prod-razors">Бритвенные принадлежности
+						</label><br>
+						<label>
+							<input type="radio" name="product-groups" value="prod-care-agents">Средства для ухода
+						</label><br>
+						<label>
+							<input type="radio" name="product-groups" value="prod-accesories">Аксессуары
+						</label>
+					</div>
+					<input type="submit" name="show-products" value="Показать" class="btn btn-show">
+				</div>
+				<div class="index-content-right">
+					<div class="products-info">
+						<article>
+							<figure class="product-photo">
+								<img src="http://placehold.it/150x100">
+								<figcaption><!--вот тут есть сомнения насчет корректности засовывать в figcaption цену и кнопку "купить"-->
+									<span>Набор для путешествий</span><br> <!--span для отключения uppercase-->
+									"Baxter of California"<br>
+									<span class="prise">2900руб.</span><!--uppercase и тут слетит, но я его верну в селекторе-->
+									<a href="#" class="btn btn-buy">Купить</a>
+								</figcaption>
+							</figure>
+						</article>
+						<article>
+							<figure>
+								<img src="http://placehold.it/150x100">
+								<figcaption>
+									<span>Увлажняющий кондиционер</span><br>
+									"Baxter of California"<br>
+									<span class="prise">750руб.</span>
+									<a href="#" class="btn btn-buy">Купить</a>
+							</figcaption>
+							</figure>
+						</article>
+						<article>
+							<figure>
+								<img src="http://placehold.it/150x100">
+								<figcaption>
+									<span>Гель для волос</span><br> 
+									"Suavecito"<br>
+									<span class="prise">290руб.</span>
+									<a href="#" class="btn btn-buy">Купить</a>
+								</figcaption>
+							</figure>
+						</article>
+						<article>
+							<figure>
+								<img src="http://placehold.it/150x100">
+								<figcaption>
+									<span>Глина для укладки волос</span><br> 
+									"American crew"<br>
+									<span class="prise">500руб.</span>
+									<a href="#" class="btn btn-buy">Купить</a>
+								</figcaption>
+							</figure>
+						</article>
+						<article>
+							<figure>
+								<img src="http://placehold.it/150x100">
+								<figcaption>
+									<span>Гель для волос</span><br> 
+									"American crew"<br>
+									<span class="prise">300руб.</span>
+									<a href="#" class="btn btn-buy">Купить</a>
+								</figcaption>
+							</figure>
+						</article>
+						<article>
+							<figure>
+								<img src="http://placehold.it/150x100">
+								<figcaption>
+									<span>Набор для бритья</span><br> 
+									"Baxter of California"<br>
+									<span class="prise">3900руб.</span>
+									<a href="#" class="btn btn-buy">Купить</a>
+								</figcaption>
+							</figure>
+						</article>
+					</div>
+					<div class="products-paginator">
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="main-footer">
+			<div class="container">
+				<section class="footer-contacts">
+					Барбершоп «Бородинский»<br>
+          			Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+          			<a href="#">Как нас найти?</a><br>
+          			Телефон: +7 (495) 666-02-66					
+				</section>
+				<section class="footer-social">
+					<p>Давайте дружить!</p>
+			        	<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+			        	<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+			        	<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+				</section>
+				<section class="footer-copyright">
+					<p>Разработано:</p>
+          			<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+				</section>
+			</div>
+		</footer>
+	<form action="#" method="get">
+</body>
+</html>
