@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Catalog</title>
 </head>
 <body>
-<form action="#" method="get">
 		<header class="main-header">
 			<div class="container">
 				<nav class="main-navigation">
-						<img src="http://placehold.it/150x100">
+					<div class="logo-img-small">
+						<a href="#"><img src="http://placehold.it/150x100"></a>
+					</div>
 					<ul>
-						<li>Информация</li>
-						<li>Новости</li>
-						<li>Прайс-лист</li>
-						<li>Магазин</li>
-						<li>Контакты</li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Прайс-лист</a></li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="user-block">
@@ -29,46 +30,47 @@
 				<ul>
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Средства для ухода</a></li>
+					<li>Средства для ухода</li>
 				</ul>
 			</div>
 			<div class="index-content">
 				<div class="index-content-left">
-					<div class="manufacturer">
-						<h2>Производители:</h2>
-						<label>
-							<input type="checkbox" name="Baxter of California">Baxter of California
-						</label><br>
-						<label>
-							<input type="checkbox" name="Mr Natty">Mr Natty
-						</label><br>
-						<label>
-							<input type="checkbox" name="Suavecito">Suavecito
-						</label><br>
-						<label>
-							<input type="checkbox" name="Malin Coetz">Malin Coetz
-						</label><br>
-						<label>
-							<input type="checkbox" name="Murray's">Murray's
-						</label><br>
-						<label>
-							<input type="checkbox" name="American crew">American crew
-						</label>
-
-					</div>
-					<div class="product-groups">
-						<h2>Группы товаров:</h2>
-						<label>
-							<input type="radio" name="product-groups" value="prod-razors">Бритвенные принадлежности
-						</label><br>
-						<label>
-							<input type="radio" name="product-groups" value="prod-care-agents">Средства для ухода
-						</label><br>
-						<label>
-							<input type="radio" name="product-groups" value="prod-accesories">Аксессуары
-						</label>
-					</div>
-					<input type="submit" name="show-products" value="Показать" class="btn btn-show">
+					<form action="#" method="get">
+						<div class="manufacturer">
+							<h2>Производители:</h2>
+							<label>
+								<input type="checkbox" name="Baxter of California">Baxter of California
+							</label>
+							<label>
+								<input type="checkbox" name="Mr Natty">Mr Natty
+							</label>
+							<label>
+								<input type="checkbox" name="Suavecito">Suavecito
+							</label>
+							<label>
+								<input type="checkbox" name="Malin Coetz">Malin Coetz
+							</label>
+							<label>
+								<input type="checkbox" name="Murray's">Murray's
+							</label>
+							<label>
+								<input type="checkbox" name="American crew">American crew
+							</label>
+						</div>
+						<div class="product-groups">
+							<h2>Группы товаров:</h2>
+							<label>
+								<input type="radio" name="product-groups" value="prod-razors">Бритвенные принадлежности
+							</label>
+							<label>
+								<input type="radio" name="product-groups" value="prod-care-agents">Средства для ухода
+							</label>
+							<label>
+								<input type="radio" name="product-groups" value="prod-accesories">Аксессуары
+							</label>
+						</div>
+						<input type="submit" name="show-products" value="Показать" class="btn btn-show">
+					</form>
 				</div>
 				<div class="index-content-right">
 					<div class="products-info">
@@ -151,16 +153,18 @@
 		<footer class="main-footer">
 			<div class="container">
 				<section class="footer-contacts">
-					Барбершоп «Бородинский»<br>
+					<p>Барбершоп «Бородинский»<br>
           			Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
           			<a href="#">Как нас найти?</a><br>
-          			Телефон: +7 (495) 666-02-66					
+          			Телефон: +7 (495) 666-02-66</p>
 				</section>
 				<section class="footer-social">
-					<p>Давайте дружить!</p>
-			        	<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-			        	<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-			        	<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+					<h3>Давайте дружить!</h3>
+					<ul>
+				       	<li><a class="social-btn social-btn-vk" href="#">Вконтакте</a></li>
+				       	<li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
+				       	<li><a class="social-btn social-btn-inst" href="#">Инстаграм</a></li>
+			       	</ul>
 				</section>
 				<section class="footer-copyright">
 					<p>Разработано:</p>
@@ -168,6 +172,5 @@
 				</section>
 			</div>
 		</footer>
-	<form action="#" method="get">
 </body>
 </html>
