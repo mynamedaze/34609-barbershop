@@ -9,7 +9,7 @@
 			<div class="container">
 				<nav class="main-navigation">
 					<div class="logo-img-small">
-						<a href="#"><img src="http://placehold.it/150x100"></a>
+						<a href="#"><img src="http://placehold.it/150x100" alt="Barbershop" width="150px" height="100px"></a>
 					</div>
 					<ul>
 						<li><a href="#">Информация</a></li>
@@ -36,8 +36,8 @@
 			<div class="index-content">
 				<div class="index-content-left">
 					<form action="#" method="get">
-						<div class="manufacturer">
-							<h2>Производители:</h2>
+						<fieldset class="manufacturer">
+							<legend>Производители:</legend>
 							<label>
 								<input type="checkbox" name="Baxter of California">Baxter of California
 							</label>
@@ -56,9 +56,9 @@
 							<label>
 								<input type="checkbox" name="American crew">American crew
 							</label>
-						</div>
-						<div class="product-groups">
-							<h2>Группы товаров:</h2>
+						</fieldset>
+						<fieldset class="product-groups">
+							<legend>Группы товаров:</legend>
 							<label>
 								<input type="radio" name="product-groups" value="prod-razors">Бритвенные принадлежности
 							</label>
@@ -68,7 +68,7 @@
 							<label>
 								<input type="radio" name="product-groups" value="prod-accesories">Аксессуары
 							</label>
-						</div>
+						</fieldset>
 						<input type="submit" name="show-products" value="Показать" class="btn btn-show">
 					</form>
 				</div>
@@ -76,7 +76,7 @@
 					<div class="products-info">
 						<article>
 							<figure class="product-photo">
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150px" height="100px">
 								<figcaption><!--вот тут есть сомнения насчет корректности засовывать в figcaption цену и кнопку "купить"-->
 									<span>Набор для путешествий</span><br> <!--span для отключения uppercase-->
 									"Baxter of California"<br>
@@ -87,7 +87,7 @@
 						</article>
 						<article>
 							<figure>
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер Baxter of California" width="150px" height="100px">
 								<figcaption>
 									<span>Увлажняющий кондиционер</span><br>
 									"Baxter of California"<br>
@@ -98,7 +98,7 @@
 						</article>
 						<article>
 							<figure>
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Гель для волос Suavecito" width="150px" height="100px">
 								<figcaption>
 									<span>Гель для волос</span><br> 
 									"Suavecito"<br>
@@ -109,7 +109,7 @@
 						</article>
 						<article>
 							<figure>
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Глина для укладки волос American crew" width="150px" height="100px">
 								<figcaption>
 									<span>Глина для укладки волос</span><br> 
 									"American crew"<br>
@@ -120,7 +120,7 @@
 						</article>
 						<article>
 							<figure>
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Гель для волос American crew" width="150px" height="100px">
 								<figcaption>
 									<span>Гель для волос</span><br> 
 									"American crew"<br>
@@ -131,7 +131,7 @@
 						</article>
 						<article>
 							<figure>
-								<img src="http://placehold.it/150x100">
+								<img src="http://placehold.it/150x100" alt="Набор для бритья Baxter of California" width="150px" height="100px">
 								<figcaption>
 									<span>Набор для бритья</span><br> 
 									"Baxter of California"<br>
@@ -143,7 +143,7 @@
 					</div>
 					<div class="products-paginator">
 					<a href="#">1</a>
-					<a href="#">2</a>
+					<a href="#" class="active">2</a><!--как тогда сделать чтобы он был неактивен после выбора?-->
 					<a href="#">3</a>
 					<a href="#">4</a>
 					</div>
