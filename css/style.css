@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src:
+    url('../fonts/ptsansnarrow.woff2'),
+    url('../fonts/ptsansnarrow.woff'),
+	url('../fonts/PTN57F.ttf');
+}
+@font-face {
+  font-family: 'PT Sans Narrow Bold';
+  src:
+    url('../fonts/ptsansnarrowbold.woff2'),
+    url('../fonts/ptsansnarrowbold.woff'),
+	url('../fonts/PTN77F.ttf');
+}
+
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow Bold";
+	background: #242424 url('../img/tint.png') no-repeat;
+}
+b.features-name,
+h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+.main-header {
+	font-size: 16px;
+	line-height: 20px;
+	background-color: #000000;
+}
+a {
+	color: white;
+	background-color: black;
+}
+.login:before {
+	content: "";
+	background: url("../img/icon-login.png") no-repeat;
+	padding-right: 20px;
+	opacity: 0.3;
+}
+.login:hover:before {
+	opacity: 1;
+}
+.breadcrumbs {
+	color: #aba9a7;
+}
+.breadcrumbs a {
+	background-color: transparent;
+	color: #000000;
+}
+.index-content {
+	background: url("../img/background-light.png") repeat;
+}
+.main-footer {
+	background: url("../img/background-dark.png") repeat;
+}
+.footer-social ul {
+	list-style-type: none;
+}
+.footer-social li {
+	display: inline-block;
+}
+a.social-btn {
+	width: 43px;
+	height: 43px;
+	display: inline-block;
+	background-color: #000;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+a.social-btn-vk {
+	background-image: url("../img/vkontakte.png");
+}
+a.social-btn-fb {
+	background-image: url("../img/facebook.png");
+}
+a.social-btn-inst {
+	background-image: url("../img/instagram.png");
+}
+a.social-btn:hover {
+	-webkit-filter: invert(1);
+}
