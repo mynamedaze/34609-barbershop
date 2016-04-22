@@ -84,3 +84,17 @@ a.social-btn-inst {
 a.social-btn:hover {
 	-webkit-filter: invert(1);
 }
+span.product-category,
+span.product-manufacturer,
+span.price {
+	color: #000;
+}
+.product-info a {
+	background-color: transparent;
+}
+span.product-category {
+	text-transform: none;
+}
+a.btn {
+	background-color: #000;
+}
